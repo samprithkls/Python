@@ -7,7 +7,7 @@
 n=int(input())
 scores=list(map(int,input().split()))
 maxi=scores[0]
-runn=-1
+runn=-999
 for i in scores:
     if(i>maxi):
         maxi=i
