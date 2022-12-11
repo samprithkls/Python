@@ -11,6 +11,6 @@ for i in range(len(lst)):
                     if(lst[i][j][k]==key):
                         print(i,j,k)
                         exit
-    if lst[i]==key:
+    elif lst[i]==key:
             print(i)
 
