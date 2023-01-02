@@ -9,11 +9,12 @@
 class Solution:
     def MissingNumber(self,a,n):
         a.sort()
-        for i in range(0,n):
+        for i in range(0,len(a)):
             if a[i]==i+1:
                 continue
             else:
                 return i+1
+        return n
                 
 
 
